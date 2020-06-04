@@ -1,0 +1,9 @@
+---
+title:
+- type: main
+  text: Book Name
+description: Bok Description
+language: en-US
+stylesheet: epub.css
+cover-image: cover.jpg
+...
