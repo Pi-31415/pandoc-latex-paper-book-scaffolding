@@ -1,6 +1,7 @@
 # pandoc-latex-paper-book template
 A ready-to-use scaffolding template for publishing research papers/ books in pandoc and latex, and get epub and pdf as output files.
 
+I based this off from [pandoc-markdown-book-template](https://github.com/johnpaulada/pandoc-markdown-book-template) by [John Paul Ada](https://github.com/johnpaulada).
 
 ### To Create Book
 1. Change to this directory.
