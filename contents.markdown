@@ -1,7 +1,5 @@
 ---
-title: Book Title
-author: Author Name
+title: Book
+author: Colin
 date: June, 2020
 ---
-
-# Some paragraph
