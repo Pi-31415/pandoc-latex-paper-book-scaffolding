@@ -10,7 +10,15 @@ Here are some useful technical information that you might find helpful.
 
 ## Domain Name
 
-
+```
+// hello.cpp
+#include <iostream>
+using namespace std;
+int main() {
+ cout << "Hello, world!" << endl;
+ return 0;
+}
+```
 
 ## Website
 
