@@ -13,6 +13,15 @@ Computing the distance between two given points in a Cartesian plane, given the 
 
 # Test Cases and Algorithm Design
 
+    | Get input x1 from user
+    | Assign x1 to variable x1
+    | Get input y1 from user
+    | Assign y1 to variable y1
+    | Get input x2 from user
+    | Assign x2 to variable x2
+    | Get input y2 from user
+    | Assign y2 to variable y2
+
 
 # Implementation
 
