@@ -13,16 +13,16 @@ Computing the distance between two given points in a Cartesian plane, given the 
 
 # Test Cases and Algorithm Design
 
-* Get input $x1$ from user
-* Assign $x1$ to variable $x1$
-* Get input $y1$ from user
-* Assign $y1$ to variable $y1$
-* Get input $x2$ from user
-* Assign $x2$ to variable $x2$
-* Get input $y2$ from user
-* Assign $y2$ to variable $y2$
-* Assign $v(t) = v_0 + \frac{1}{2}at^2$ to distance
-* Print Distance
+* Get input $x_1$ from user
+* Assign $x_1$ to variable $x_1$
+* Get input $y_1$ from user
+* Assign $y_1$ to variable $y_1$
+* Get input $x_2$ from user
+* Assign $x_2$ to variable $x_2$
+* Get input $y_2$ from user
+* Assign $y_2$ to variable $y_2$
+* Assign $\sqrt{{x_2 - x_1}^{2}+{y_2 - y_1}^{2}}$ to distance
+* Print distance
 
 
 # Implementation
