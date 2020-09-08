@@ -21,8 +21,8 @@ date: Sep 8, 2020
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.cpp .numberLines}
 /*-------------------------------------------------*/
-/* Name: your_name_here, Student Number: 0000001 */
-/* Date: August 24, 2020. */
+/* Name: Pi, Student Number: N13394469 */
+/* Date: Sep 8, 2020. */
 /* Program: distance.cpp */
 /* Description: This program computes the distance */
 /* between two points. */
