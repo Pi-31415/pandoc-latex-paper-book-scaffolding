@@ -21,33 +21,11 @@ Computing the distance between two given points in a Cartesian plane, given the 
 * Assign $x_2$ to variable $x_2$
 * Get input $y_2$ from user
 * Assign $y_2$ to variable $y_2$
-* Assign $\sqrt{{x_2 - x_1}^{2}+{y_2 - y_1}^{2}}$ to distance
-* Print distance
+* Assign $\sqrt{{(x_2 - x_1)}^{2}+{(y_2 - y_1)}^{2}}$ to *distance*
+* Print *distance*
 
 
 # Implementation
-
-
-# Software Testing and Verification
-
-
-% Pandoc math demos
-
-$a^2 + b^2 = c^2$
-
-$v(t) = v_0 + \frac{1}{2}at^2$
-
-$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$  
-
-$\exists x \forall y (Rxy \equiv Ryx)$
-
-$p \wedge q \models p$
-
-$\Box\diamond p\equiv\diamond p$
-
-$\int_{0}^{1} x dx = \left[ \frac{1}{2}x^2 \right]_{0}^{1} = \frac{1}{2}$
-
-$e^x = \sum_{n=0}^\infty \frac{x^n}{n!} = \lim_{n\rightarrow\infty} (1+x/n)^n$
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.cpp .numberLines}
 /*-------------------------------------------------*/
@@ -79,3 +57,5 @@ cout << "The distance between the two points is " << distance << endl;
 }
 /*--------------------------End---------------------*/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+# Software Testing and Verification
