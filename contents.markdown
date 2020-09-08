@@ -1,54 +1,38 @@
 ---
-title: Technical Writeup for the website
-author: Pi
-date: June, 2020
+title: Lab 0 Report
+author: Pi (pk2269@nyu.edu)
+date: 8, September, 2020
 ---
 
-Dear Elham,
+#
 
-Here are some useful technical information that you might find helpful.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.cpp .numberLines}
+/*-------------------------------------------------*/
+/* Name: your_name_here, Student Number: 0000001 */
+/* Date: August 24, 2020. */
+/* Program: distance.cpp */
+/* Description: This program computes the distance */
+/* between two points. */
+/*-------------------------------------------------*/
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+/* Declare and initialize the variables */
+double x1 = -1, y1 = -3, x2 = 4, y2 = 6;
+double length1, length2, distance;
 
-## Domain Name
+/* Compute the sides of a right triangle */
+length1 = x2 - x1;
+length2 = y2 - y1;
 
-~~~~~~~
-if (a > 3) {
-  moveShip(5 * gravity, DOWN);
+/* Compute the distance between the two points. */
+distance = sqrt(length1*length1 + length2*length2);
+
+/* Print the distance */
+cout << "The distance between the two points is " << distance << endl;
+ return (0);
 }
-~~~~~~~
-
-## Website
-
-A2 Hosting - [https://www.a2hosting.com/](https://www.a2hosting.com/)
-
-## Content Management System
-https://magento.com/
-
-## Mordern Technologies which you can use
-React js https://reactjs.org/
-
-## Payment Platform
-**Stripe** [https://stripe.com/](https://stripe.com/)
-
-
->For certain common messages, the messages can be answered by a customer service bot. But questions that cannot be answered by the bot will be redirected to the Editors. Public Visitors are advised by the bot to leave their emails such that Editors can reply by email 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.python .numberLines}
-class FSM(object):
-
-"""This is a Finite State Machine (FSM).
-"""
-
-def __init__(self, initial_state, memory=None):
-
-    """This creates the FSM. You set the initial state here. The "memory"
-    attribute is any object that you want to pass along to the action
-    functions. It is not used by the FSM. For parsing you would typically
-    pass a list to be used as a stack. """
-
-    # Map (input_symbol, current_state) --> (action, next_state).
-    self.state_transitions = {}
-    # Map (current_state) --> (action, next_state).
-    self.state_transitions_any = {}
-    self.default_transition = None
-    ...
+/*--------------------------End---------------------*/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
