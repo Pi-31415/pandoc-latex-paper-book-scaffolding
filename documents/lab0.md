@@ -42,15 +42,17 @@ using namespace std;
 int main()
 {
     /* Declare and initialize the variables */
-    double x1 = -1, y1 = -3, x2 = 4, y2 = 6;
-    double length1, length2, distance;
+    double x1,y1,x2,y2,distance;
+    cout << "Provide x1:" ;
+    cin >> x1;
+    cout << "Provide y1:" ;
+    cin >> y1;
+    cout << "Provide x2:" ;
+    cin >> x2;
+    cout << "Provide y2:" ;
+    cin >> y2;
 
-    /* Compute the sides of a right triangle */
-    length1 = x2 - x1;
-    length2 = y2 - y1;
-
-    /* Compute the distance between the two points. */
-    distance = sqrt(length1*length1 + length2*length2);
+    distance = sqrt((x2-x1)^2 + (y2-y1)^2);
 
     /* Print the distance */
     cout << "The distance between the two points is " << distance << endl;
