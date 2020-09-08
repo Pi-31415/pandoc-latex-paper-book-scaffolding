@@ -6,6 +6,7 @@ date: Sep 8, 2020
 
 # Problem Identification and Statement.
 
+Computing the distance between two given points in a Cartesian plane, given the Cartesian coordinates of the two points.
 
 # Gathering of Information and Input/Output Description.
 
