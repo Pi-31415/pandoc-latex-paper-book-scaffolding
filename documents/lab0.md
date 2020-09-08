@@ -17,7 +17,7 @@ date: Sep 8, 2020
 
 # Software Testing and Verification.
 
-
+$$ \sum_{\forall i}{x_i^{2}} $$
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.cpp .numberLines}
 /*-------------------------------------------------*/
