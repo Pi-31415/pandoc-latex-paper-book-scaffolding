@@ -4,19 +4,20 @@ author: Pi (pk2269@nyu.edu)
 date: Sep 8, 2020
 ---
 
-# Problem Identification and Statement.
+# Problem Identification and Statement
 
 Computing the distance between two given points in a Cartesian plane, given the Cartesian coordinates of the two points.
 
-# Gathering of Information and Input/Output Description.
+# Gathering of Information and Input/Output Description
 
 
-# Test Cases and Algorithm Design.
+
+# Test Cases and Algorithm Design
 
 
-# Implementation.
+# Implementation
 
-# Software Testing and Verification.
+# Software Testing and Verification
 
 % Pandoc math demos
 
