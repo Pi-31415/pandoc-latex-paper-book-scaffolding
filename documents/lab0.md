@@ -1,23 +1,21 @@
 ---
-title: Pandoc User's Guide
-author: John MacFarlane
-date: July 23, 2020
+title: ENGR–UH 1000 Lab 0 Report
+author: Pi (pk2269@nyu.edu)
+date: Sep 8, 2020
 ---
 
-# Lab Report
-## Problem Identification and Statement.
+# Problem Identification and Statement.
 
 
-## Gathering of Information and Input/Output Description.
+# Gathering of Information and Input/Output Description.
 
 
-## Test Cases (Hand-Solved Examples) and Algorithm Design.
+# Test Cases (Hand-Solved Examples) and Algorithm Design.
 
 
-## Implementation.
+# Implementation.
 
-
-## Software Testing and Verification.
+# Software Testing and Verification.
 
 
 
