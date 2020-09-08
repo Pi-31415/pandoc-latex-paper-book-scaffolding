@@ -10,7 +10,7 @@ date: Sep 8, 2020
 # Gathering of Information and Input/Output Description.
 
 
-# Test Cases (Hand-Solved Examples) and Algorithm Design.
+# Test Cases and Algorithm Design.
 
 
 # Implementation.
