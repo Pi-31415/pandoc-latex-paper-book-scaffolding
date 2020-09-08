@@ -21,3 +21,6 @@ pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sans
 ```
 
 Your book will be exported as `book.pdf`.
+
+
+pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --variable version=2.0 MANUAL.txt --highlight-style pygments --pdf-engine=xelatex --toc -o example14.pdf
