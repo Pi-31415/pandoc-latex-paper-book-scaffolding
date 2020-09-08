@@ -17,7 +17,7 @@ Your book will be exported as `book.epub`.
 ### To Convert to PDF
 
 ```bash
-pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --variable version=2.0 ./documents/lab0.md --highlight-style pygments --pdf-engine=xelatex --toc -o ./documents/lab0.pdf
+pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --variable version=2.0 ./lab0.md --highlight-style pygments --pdf-engine=xelatex --toc -o ./lab0.pdf
 ```
 
 Your book will be exported as `book.pdf`.

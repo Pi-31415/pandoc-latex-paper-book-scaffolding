@@ -1,5 +1,5 @@
 ---
-title: ENGR–UH 1000 Lab 0 Report
+title: ENGR–UH 1000 | Lab 0 Report
 author: Pi (pk2269@nyu.edu)
 date: Sep 8, 2020
 ---
