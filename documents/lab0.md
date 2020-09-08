@@ -4,6 +4,21 @@ author: John MacFarlane
 date: July 23, 2020
 ---
 
+## Step 1: Problem Identification and Statement.
+
+
+## Step 2: Gathering of Information and Input/Output Description.
+
+
+## Step 3: Test Cases (Hand-Solved Examples) and Algorithm Design.
+
+
+## Step 4: Implementation.
+
+
+## Step 5: Software Testing and Verification.
+
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.cpp .numberLines}
 /*-------------------------------------------------*/
