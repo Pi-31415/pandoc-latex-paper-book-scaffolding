@@ -43,22 +43,22 @@ int main()
 {
     /* Declare and initialize the variables */
     double x1,y1,x2,y2,distance;
-    cout << "Provide x1:" ;
+    cout << "Provide x1: " ;
     cin >> x1;
-    cout << "Provide y1:" ;
+    cout << "Provide y1: " ;
     cin >> y1;
-    cout << "Provide x2:" ;
+    cout << "Provide x2: " ;
     cin >> x2;
-    cout << "Provide y2:" ;
+    cout << "Provide y2: " ;
     cin >> y2;
 
-    distance = sqrt((x2-x1)^2 + (y2-y1)^2);
+    distance = sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
 
     /* Print the distance */
     cout << "The distance between the two points is " << distance << endl;
     return (0);
 }
 /*--------------------------End---------------------*/
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Software Testing and Verification
