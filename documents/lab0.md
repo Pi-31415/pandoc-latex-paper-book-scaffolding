@@ -41,20 +41,20 @@ Computing the distance between two given points in a Cartesian plane, given the 
 using namespace std;
 int main()
 {
-/* Declare and initialize the variables */
-double x1 = -1, y1 = -3, x2 = 4, y2 = 6;
-double length1, length2, distance;
+    /* Declare and initialize the variables */
+    double x1 = -1, y1 = -3, x2 = 4, y2 = 6;
+    double length1, length2, distance;
 
-/* Compute the sides of a right triangle */
-length1 = x2 - x1;
-length2 = y2 - y1;
+    /* Compute the sides of a right triangle */
+    length1 = x2 - x1;
+    length2 = y2 - y1;
 
-/* Compute the distance between the two points. */
-distance = sqrt(length1*length1 + length2*length2);
+    /* Compute the distance between the two points. */
+    distance = sqrt(length1*length1 + length2*length2);
 
-/* Print the distance */
-cout << "The distance between the two points is " << distance << endl;
- return (0);
+    /* Print the distance */
+    cout << "The distance between the two points is " << distance << endl;
+    return (0);
 }
 /*--------------------------End---------------------*/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
