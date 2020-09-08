@@ -10,12 +10,14 @@ I based this off from [pandoc-markdown-book-template](https://github.com/johnpau
 ```bash
 pandoc --toc --epub-embed-font='fonts/*.ttf' -o book.epub metadata.txt contents.markdown
 ```
+
+
 Your book will be exported as `book.epub`.
 
 ### To Convert to PDF
 
 ```bash
-pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --variable version=2.0 contents.markdown --pdf-engine=xelatex --toc -o book.pdf
+pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --highlight-style my.theme --variable version=2.0 contents.markdown --pdf-engine=xelatex --toc -o book.pdf
 ```
 
 Your book will be exported as `book.pdf`.

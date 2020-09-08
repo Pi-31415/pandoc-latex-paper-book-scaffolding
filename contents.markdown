@@ -31,3 +31,24 @@ React js https://reactjs.org/
 
 
 >For certain common messages, the messages can be answered by a customer service bot. But questions that cannot be answered by the bot will be redirected to the Editors. Public Visitors are advised by the bot to leave their emails such that Editors can reply by email 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ {.python .numberLines}
+class FSM(object):
+
+"""This is a Finite State Machine (FSM).
+"""
+
+def __init__(self, initial_state, memory=None):
+
+    """This creates the FSM. You set the initial state here. The "memory"
+    attribute is any object that you want to pass along to the action
+    functions. It is not used by the FSM. For parsing you would typically
+    pass a list to be used as a stack. """
+
+    # Map (input_symbol, current_state) --> (action, next_state).
+    self.state_transitions = {}
+    # Map (current_state) --> (action, next_state).
+    self.state_transitions_any = {}
+    self.default_transition = None
+    ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
