@@ -1,0 +1,122 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+]{}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Palatino}
+  \setsansfont[]{Helvetica}
+  \setmonofont[]{Menlo}
+\fi
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdfauthor={Pi (pk2269@nyu.edu)},
+  pdfborder={0 0 0},
+  breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-2}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{ENGR–UH 1000 | Lab 0 Report}
+\author{Pi (pk2269@nyu.edu)}
+\date{Sep 8, 2020}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{}
+\tableofcontents
+}
+<h1 data-number="1" id="problem-identification-and-statement."><span class="header-section-number">1</span> Problem Identification and Statement.</h1>
+<h1 data-number="2" id="gathering-of-information-and-inputoutput-description."><span class="header-section-number">2</span> Gathering of Information and Input/Output Description.</h1>
+<h1 data-number="3" id="test-cases-and-algorithm-design."><span class="header-section-number">3</span> Test Cases and Algorithm Design.</h1>
+<h1 data-number="4" id="implementation."><span class="header-section-number">4</span> Implementation.</h1>
+<h1 data-number="5" id="software-testing-and-verification."><span class="header-section-number">5</span> Software Testing and Verification.</h1>
+<p>% Pandoc math demos</p>
+<p><span class="math inline"><em>a</em><sup>2</sup> + <em>b</em><sup>2</sup> = <em>c</em><sup>2</sup></span></p>
+<p><span class="math inline">$v(t) = v_0 + \frac{1}{2}at^2$</span></p>
+<p><span class="math inline">$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$</span></p>
+<p><span class="math inline">∃<em>x</em>∀<em>y</em>(<em>R</em><em>x</em><em>y</em> ≡ <em>R</em><em>y</em><em>x</em>)</span></p>
+<p><span class="math inline"><em>p</em> ∧ <em>q</em> ⊨ <em>p</em></span></p>
+<p><span class="math inline">□⋄<em>p</em> ≡ ⋄<em>p</em></span></p>
+<p><span class="math inline">$\int_{0}^{1} x dx = \left[ \frac{1}{2}x^2 \right]_{0}^{1} = \frac{1}{2}$</span></p>
+<p><span class="math inline">$e^x = \sum_{n=0}^\infty \frac{x^n}{n!} = \lim_{n\rightarrow\infty} (1+x/n)^n$</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource cpp numberLines"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">/*-------------------------------------------------*/</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="co">/* Name: Pi, Student Number: N13394469 */</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co">/* Date: Sep 8, 2020. */</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="co">/* Program: distance.cpp */</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co">/* Description: This program computes the distance */</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="co">/* between two points. */</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co">/*-------------------------------------------------*/</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="pp">#include </span><span class="im">&lt;iostream&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="pp">#include </span><span class="im">&lt;cmath&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="kw">using</span> <span class="kw">namespace</span> std;</span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="dt">int</span> main()</span>
+<span id="cb1-12"><a href="#cb1-12"></a>{</span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="co">/* Declare and initialize the variables */</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="dt">double</span> x1 = -<span class="dv">1</span>, y1 = -<span class="dv">3</span>, x2 = <span class="dv">4</span>, y2 = <span class="dv">6</span>;</span>
+<span id="cb1-15"><a href="#cb1-15"></a><span class="dt">double</span> length1, length2, distance;</span>
+<span id="cb1-16"><a href="#cb1-16"></a></span>
+<span id="cb1-17"><a href="#cb1-17"></a><span class="co">/* Compute the sides of a right triangle */</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>length1 = x2 - x1;</span>
+<span id="cb1-19"><a href="#cb1-19"></a>length2 = y2 - y1;</span>
+<span id="cb1-20"><a href="#cb1-20"></a></span>
+<span id="cb1-21"><a href="#cb1-21"></a><span class="co">/* Compute the distance between the two points. */</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a>distance = sqrt(length1*length1 + length2*length2);</span>
+<span id="cb1-23"><a href="#cb1-23"></a></span>
+<span id="cb1-24"><a href="#cb1-24"></a><span class="co">/* Print the distance */</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a>cout &lt;&lt; <span class="st">&quot;The distance between the two points is &quot;</span> &lt;&lt; distance &lt;&lt; endl;</span>
+<span id="cb1-26"><a href="#cb1-26"></a> <span class="cf">return</span> (<span class="dv">0</span>);</span>
+<span id="cb1-27"><a href="#cb1-27"></a>}</span>
+<span id="cb1-28"><a href="#cb1-28"></a><span class="co">/*--------------------------End---------------------*/</span></span></code></pre></div>
+
+\end{document}
