@@ -11,6 +11,7 @@ Computing the distance between two given points in a Cartesian plane, given the 
 # Gathering of Information and Input/Output Description
 
 
+
 # Test Cases and Algorithm Design
 
 * Get input $x_1$ from user
