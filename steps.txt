@@ -1,0 +1,16 @@
+
+
+https://develop.haply.co/releases/installer/2.0.0#downloads
+
+Install Hapley Inverse Release
+(select all)
+
+
+
+Install Inverse SDK for Unity (tar.gz)
+
+
+Open a new unity proj
+
+
+Restart computer
